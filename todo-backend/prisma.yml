@@ -1,0 +1,2 @@
+endpoint: https://us1.prisma.sh/miguel-almonte/todo-backend/dev
+datamodel: datamodel.graphql

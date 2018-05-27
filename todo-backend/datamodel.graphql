@@ -1,0 +1,9 @@
+type User {
+  id: ID! @unique
+  name: String!
+}
+
+type Todo {
+  id: ID! @unique
+  value: String!
+}
