@@ -27,6 +27,7 @@ const CREATE_TODO = gql`
 const client = new ApolloClient({
   uri: "https://us1.prisma.sh/miguel-almonte/todo-backend/dev"
 });
+// TODO Use state and asynchronous mutation to make app look faster.
 class App extends React.Component {
     constructor(props){
         super(props);
